@@ -2,10 +2,10 @@ if __name__ == "__main__":
     pass
 N = int(input("Введите кол-во элементов списка: "))
 print("Введите элементы списка: ")
-my_list = []
+list = []
 for i in range(N):
     element = int(input(f"Элемент {i + 1}: "))
-    my_list.append(element)
+    list.append(element)
 K = int(input("Введите число K: "))
 L = int(input("Введите число L: "))
 if not (1 < K <= L <= N) :
